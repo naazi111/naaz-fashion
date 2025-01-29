@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFE6F2;
+    color: #5A4B62;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFB6C1;
+    padding: 20px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: #8B5E83;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #FF69B4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.outfit-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.outfit {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.outfit:hover {
+    transform: scale(1.05);
+}
+
+.outfit img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.outfit a {
+    display: block;
+    text-decoration: none;
+    color: #FF69B4;
+    font-weight: bold;
+    margin-top: 10px;
+}
